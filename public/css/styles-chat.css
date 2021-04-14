@@ -1,0 +1,88 @@
+/* WELCOME PAGE */
+html {
+    width:100%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+
+.font{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.appTitle{
+    height: 50px;
+    font-size: 1.5em;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: left;
+}
+
+.chatContainer{
+    height: 500px;
+}
+
+#sidebar{
+    background-color: #43A99A;
+    height: inherit;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    float:left;
+}
+
+#main {
+    height: 500px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1faf8;
+}
+
+/* CHAT PAGE */
+#displayMessages{
+    display: block;
+    height:400px;
+    overflow-y: scroll;
+    
+}
+
+#composeMessage{
+    height: 100px;
+    padding: 9px 0 0 0;
+}
+
+#chatButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#chatButtons input, button {
+    height:90px;
+}
+
+#chatButtons input.form-control {
+    flex: 2;
+    border-radius: 0;
+}
+
+#chatButtons button {
+    text-transform: uppercase;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.singleMsg{
+    background-color: #e1e1e1;
+    color:#000;
+}
+
+.username{
+    color:darkgoldenrod;
+}
